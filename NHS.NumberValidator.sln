@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+#
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ABAEF732-5F61-4234-9464-16AD09ACB0BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHS.NumberValidator", "src\NHS.NumberValidator\NHS.NumberValidator.csproj", "{F744A7D1-E132-4F64-B10F-BFA705919DB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F2A1C585-2BD1-453F-93DB-A466D85AA58C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHS.NumberValidator.Test", "test\NHS.NumberValidator.Test\NHS.NumberValidator.Test.csproj", "{EBB203C7-64E3-42E3-9763-2FF5BA38CB41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F744A7D1-E132-4F64-B10F-BFA705919DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F744A7D1-E132-4F64-B10F-BFA705919DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F744A7D1-E132-4F64-B10F-BFA705919DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F744A7D1-E132-4F64-B10F-BFA705919DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB203C7-64E3-42E3-9763-2FF5BA38CB41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB203C7-64E3-42E3-9763-2FF5BA38CB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB203C7-64E3-42E3-9763-2FF5BA38CB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB203C7-64E3-42E3-9763-2FF5BA38CB41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F744A7D1-E132-4F64-B10F-BFA705919DB5} = {ABAEF732-5F61-4234-9464-16AD09ACB0BB}
+		{EBB203C7-64E3-42E3-9763-2FF5BA38CB41} = {F2A1C585-2BD1-453F-93DB-A466D85AA58C}
+	EndGlobalSection
+EndGlobal
