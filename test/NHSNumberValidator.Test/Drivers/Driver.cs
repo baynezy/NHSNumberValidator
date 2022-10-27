@@ -1,6 +1,4 @@
-using System;
-
-namespace NHS.NumberValidator.Test.Drivers
+namespace NHSNumberValidator.Test.Drivers
 {
     public class Driver
     {
