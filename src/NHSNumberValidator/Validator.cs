@@ -1,6 +1,6 @@
 ﻿namespace NHS.NumberValidator;
 
-public class Validator
+public static class Validator
 {
     private const int NhsNumberLength = 10;
     private const int RemainderConstant = 11;
