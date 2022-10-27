@@ -1,4 +1,4 @@
-﻿namespace NHS.NumberValidator;
+﻿namespace NHSNumberValidator;
 
 public static class Validator
 {
