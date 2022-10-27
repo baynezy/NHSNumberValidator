@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace NHS.NumberValidator.Test.Steps;
+namespace NHSNumberValidator.Test.Steps;
 
 [Binding]
 public class ValidatorFeatureSteps

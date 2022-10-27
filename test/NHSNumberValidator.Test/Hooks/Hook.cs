@@ -1,7 +1,4 @@
-using System;
-using TechTalk.SpecFlow;
-
-namespace NHS.NumberValidator.Test.Hooks
+namespace NHSNumberValidator.Test.Hooks
 {
     [Binding]
     public class Hooks
