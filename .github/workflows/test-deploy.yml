@@ -53,6 +53,6 @@ jobs:
       - name: Build
         run: dotnet build --configuration Release --no-restore
       - name: Package
-        run: dotnet pack ./src/NHS.NumberValidator/NHS.NumberValidator.csproj -c Release /P:PackageVersion=$VERSION_NUMBER.$GITHUB_RUN_NUMBER
+        run: dotnet pack ./src/NHSNumberValidator/NHSNumberValidator.csproj -c Release /P:PackageVersion=$VERSION_NUMBER.$GITHUB_RUN_NUMBER
       - name: Publish
-        run: nuget push ./src/NHS.NumberValidator/bin/Release/NHS.NumberValidator.$VERSION_NUMBER.$GITHUB_RUN_NUMBER.nupkg -ApiKey $NUGET_KEY -NonInteractive -Source https://www.nuget.org/api/v2/package
+        run: nuget push ./src/NHSNumberValidator/bin/Release/NHSNumberValidator.$VERSION_NUMBER.$GITHUB_RUN_NUMBER.nupkg -ApiKey $NUGET_KEY -NonInteractive -Source https://www.nuget.org/api/v2/package

@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
       <Authors>Simon Baynes</Authors>
       <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-      <PackageProjectUrl>https://github.com/baynezy/NHS.NumberValidator</PackageProjectUrl>
+      <PackageProjectUrl>https://github.com/baynezy/NHSNumberValidator</PackageProjectUrl>
       <Description>A .Net library for validating NHS Numbers</Description>
       <Copyright>© Simon Baynes 2022</Copyright>
     <ImplicitUsings>enable</ImplicitUsings>

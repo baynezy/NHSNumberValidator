@@ -1,6 +1,6 @@
 ﻿namespace NHS.NumberValidator;
 
-public class Validator
+public static class Validator
 {
     private const int NhsNumberLength = 10;
     private const int RemainderConstant = 11;
@@ -51,7 +51,7 @@ public class Validator
     
     private static bool RemainderAndChecksumMatch(int remainder, int checkSum)
     {
-        var actual = RemainderConstant - remainder;
+        var actual = (remainder == 0) ? 0 : RemainderConstant - remainder;
         return actual == checkSum;
     }
 }

@@ -87,4 +87,10 @@ public class ValidatorFeatureSteps
             Assert.True(true);
         }
     }
+
+    [Given(@"An NHS Number that has a remainder of 0")]
+    public void GivenAnNhsNumberThatHasARemainderOfZero()
+    {
+        _generated = "7572469280";
+    }
 }
