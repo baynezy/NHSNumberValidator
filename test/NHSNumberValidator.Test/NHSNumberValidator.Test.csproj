@@ -24,7 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\NHS.NumberValidator\NHS.NumberValidator.csproj" />
+      <ProjectReference Include="..\..\src\NHSNumberValidator\NHSNumberValidator.csproj" />
     </ItemGroup>
 
 </Project>
