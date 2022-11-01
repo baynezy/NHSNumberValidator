@@ -13,3 +13,9 @@ The library is available on NuGet:
 ```powershell
 dotnet add package NHSNumberValidator
 ```
+
+## Usage
+
+```csharp
+var isValid = Validator.Validate("1234567890");
+```
