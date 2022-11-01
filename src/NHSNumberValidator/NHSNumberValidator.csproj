@@ -9,10 +9,10 @@
         <Copyright>© Simon Baynes 2022</Copyright>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <PackageReadmeFile>../README.md</PackageReadmeFile> <!--https://docs.microsoft.com/en-gb/nuget/reference/msbuild-targets#packagereadmefile -->
+        <PackageReadmeFile>../../README.md</PackageReadmeFile> <!--https://docs.microsoft.com/en-gb/nuget/reference/msbuild-targets#packagereadmefile -->
     </PropertyGroup>
     <ItemGroup>
-        <None Include="../README.md" Pack="true" PackagePath="/"/>
+        <None Include="../../README.md" Pack="true" PackagePath="/"/>
     </ItemGroup>
 
 </Project>
