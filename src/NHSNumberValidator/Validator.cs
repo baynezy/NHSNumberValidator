@@ -6,6 +6,12 @@ public static class Validator
     private const int RemainderConstant = 11;
     private static readonly int[] Weightings = {10,9,8,7,6,5,4,3,2};
 
+    /// <summary>
+    /// Validate an NHS number
+    /// </summary>
+    /// <param name="number">The NHS number you wish to validate</param>
+    /// <returns>bool - validation result</returns>
+    /// <exception cref="ArgumentNullException">Throws if the number provided is null</exception>
     public static bool Validate(string? number)
     {
         try
