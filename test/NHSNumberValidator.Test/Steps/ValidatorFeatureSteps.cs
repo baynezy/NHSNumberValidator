@@ -38,11 +38,7 @@ public class ValidatorFeatureSteps
     }
 
     [Then(@"NHS Number should be valid")]
-    public void ThenNhsNumberShouldBeValid()
-
-    {
-        Assert.True(Validator.Validate(_generated));
-    }
+    public void ThenNhsNumberShouldBeValid() => Assert.True(Validator.Validate(_generated));
 
     [Given(@"A single invalid NHS Number")]
     public void GivenASingleInvalidNhsNumber()
@@ -52,27 +48,15 @@ public class ValidatorFeatureSteps
     }
 
     [Then(@"NHS Number should be invalid")]
-    public void ThenNhsNumberShouldBeInvalid()
-    {
-        Assert.False(Validator.Validate(_generated));
-    }
+    public void ThenNhsNumberShouldBeInvalid() => Assert.False(Validator.Validate(_generated));
 
-    private static IEnumerable<string?> Shuffle(IEnumerable<string?> numbers)
-    {
-        return numbers.OrderBy(_ => Random.Next());
-    }
+    private static IEnumerable<string?> Shuffle(IEnumerable<string?> numbers) => numbers.OrderBy(_ => Random.Next());
 
     [Given(@"A single invalid NHS Number which is too short")]
-    public void GivenASingleInvalidNhsNumberWhichIsTooShort()
-    {
-        _generated = "1234";
-    }
+    public void GivenASingleInvalidNhsNumberWhichIsTooShort() => _generated = "1234";
 
     [Given(@"A single invalid NHS Number which is null")]
-    public void GivenASingleInvalidNhsNumberWhichIsNull()
-    {
-        _generated = null;
-    }
+    public void GivenASingleInvalidNhsNumberWhichIsNull() => _generated = null;
 
     [Then(@"The validator should not accept the input")]
     public void ThenTheValidatorShouldNotAcceptTheInput()
@@ -89,8 +73,5 @@ public class ValidatorFeatureSteps
     }
 
     [Given(@"An NHS Number that has a remainder of 0")]
-    public void GivenAnNhsNumberThatHasARemainderOfZero()
-    {
-        _generated = "7572469280";
-    }
+    public void GivenAnNhsNumberThatHasARemainderOfZero() => _generated = "7572469280";
 }
