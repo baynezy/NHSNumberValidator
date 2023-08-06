@@ -64,7 +64,7 @@ public class ValidatorFeatureSteps
         try
         {
             Validator.Validate(_generated);
-            Assert.True(false, "This should never be reached, as the above should always fail.");
+            Assert.Fail("This should never be reached, as the above should always fail.");
         }
         catch (ArgumentNullException)
         {
