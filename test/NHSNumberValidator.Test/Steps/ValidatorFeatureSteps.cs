@@ -6,8 +6,8 @@ namespace NHSNumberValidator.Test.Steps;
 public class ValidatorFeatureSteps
 {
     private static readonly Random Random = new();
-    private readonly List<string?> _validNumbers = new()
-    {
+    private readonly List<string?> _validNumbers =
+    [
         "4841981608",
         "4130083619",
         "7156652133",
@@ -15,10 +15,10 @@ public class ValidatorFeatureSteps
         "4692588128",
         "2779085797",
         "1688935126"
-    };
+    ];
     
-    private readonly List<string?> _invalidNumbers = new()
-    {
+    private readonly List<string?> _invalidNumbers =
+    [
         "4841981607",
         "4130083618",
         "7156652132",
@@ -26,7 +26,7 @@ public class ValidatorFeatureSteps
         "4692588127",
         "2779085796",
         "1688935125"
-    };
+    ];
 
     private string? _generated;
 
