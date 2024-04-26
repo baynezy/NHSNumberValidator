@@ -2,7 +2,11 @@
 
 This project is a .Net library to validate the format of NHS numbers.
 
-[![Build Status](https://github.com/baynezy/NHSNumberValidator/workflows/Test%20and%20Deploy%20Library/badge.svg)](https://github.com/baynezy/NHSNumberValidator/actions?query=workflow%3ATest%20and%20Deploy%20Library)
+
+| Branch    | Status                                                                                                                                                                                                        |
+|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `master`  | [![master](https://github.com/baynezy/NHSNumberValidator/actions/workflows/branch-master.yml/badge.svg?branch=master)](https://github.com/baynezy/NHSNumberValidator/actions/workflows/branch-master.yml)     |
+| `develop` | [![develop](https://github.com/baynezy/NHSNumberValidator/actions/workflows/branch-develop.yml/badge.svg?branch=develop)](https://github.com/baynezy/NHSNumberValidator/actions/workflows/branch-develop.yml) |
 
 ## Installation
 
